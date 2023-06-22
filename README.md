@@ -37,7 +37,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Ignite Feed é uma SPA (Single Page Application) que simula um feed de rede social e suas funções front-end básicas.
 
-- [Acesse o projeto finalizado, online](https://ignite-feed-indol.vercel.app/)
+- [Acesse o projeto finalizado, online](https://ignite-feed-lucasmolc.vercel.app/)
 
 ## :memo: Licença
 
