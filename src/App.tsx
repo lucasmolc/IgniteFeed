@@ -8,6 +8,36 @@ const posts: PostType[] = [
   {
     id: 1,
     author: {
+      avatarUrl: "https://github.com/lucasmolc.png",
+      name: "Lucas Mol de Carvalho Messias",
+      role: "Full-Stack .NET Developer",
+    },
+    content: [
+      { type: "paragraph", text: "Opa!" },
+      {
+        type: "paragraph",
+        text: "Rede social feita por mim! ❤️",
+      },
+      {
+        type: "link",
+        anchor: [
+          {
+            text: "#redeSocial",
+            link: "",
+          },
+          {
+            text: "#igniteFeed",
+            link: "",
+          },
+        ],
+      },
+    ],
+    publishedAt: new Date("2023-06-21 20:59:00"),
+  },
+  
+  {
+    id: 2,
+    author: {
       avatarUrl: "https://avatars.githubusercontent.com/u/50550793?v=4",
       name: "Felipe Domingues de Miranda",
       role: "Web Developer",
@@ -46,36 +76,6 @@ const posts: PostType[] = [
       },
     ],
     publishedAt: new Date("2023-05-22 20:35:00"),
-  },
-
-  {
-    id: 2,
-    author: {
-      avatarUrl: "https://github.com/lucasmolc.png",
-      name: "Lucas Mol de Carvalho Messias",
-      role: "Full-Stack .NET Developer",
-    },
-    content: [
-      { type: "paragraph", text: "Opa!" },
-      {
-        type: "paragraph",
-        text: "Rede social feita por mim! ❤️",
-      },
-      {
-        type: "link",
-        anchor: [
-          {
-            text: "#redeSocial",
-            link: "",
-          },
-          {
-            text: "#igniteFeed",
-            link: "",
-          },
-        ],
-      },
-    ],
-    publishedAt: new Date("2023-06-21 20:59:00"),
   },
 ];
 
